@@ -1,0 +1,21 @@
+testadas 4118  positivas 553  (13.4%, IC95 12.4-14.5)
+
+sexo feminino 345/553 = 62.4% (IC95 58.3-66.3)  binomial bilateral p = 6.16e-09
+
+positividade por ano: chi2 = 172.7, gl = 9, p = 1.7e-32  (menor esperado 7.3)
+   2015: 58/206 = 28.2%  (IC95 22.5-34.7)
+   2016: 109/564 = 19.3%  (IC95 16.3-22.8)
+   2017: 128/522 = 24.5%  (IC95 21.0-28.4)
+   2018: 73/764 = 9.6%  (IC95 7.7-11.8)
+   2019: 110/973 = 11.3%  (IC95 9.5-13.4)
+   2020: 38/432 = 8.8%  (IC95 6.5-11.8)
+   2021: 6/164 = 3.7%  (IC95 1.7-7.8)
+   2022: 16/311 = 5.1%  (IC95 3.2-8.2)
+   2023: 0/54 = 0.0%  (IC95 0.0-6.6)
+   2024: 15/128 = 11.7%  (IC95 7.2-18.4)
+
+sexo por ano (9 anos): chi2 = 11.0, gl = 8, p = 0.201  (menor esperado 2.3)
+   mesmo teste por permutacao (esperados pequenos): p = 0.199
+
+21-40 anos: 195/553 = 35.3% (IC95 31.4-39.3)
+distribuicao etaria uniforme entre as 10 faixas: chi2 = 194.0, gl = 9, p = 6.1e-37
