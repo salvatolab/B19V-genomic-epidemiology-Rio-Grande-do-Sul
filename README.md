@@ -39,10 +39,24 @@ dropping the file onto https://auspice.us.
 | `metadata_public_genomes_446.tsv` | accession, collection date, country and subnational location of the curated public genomes |
 | `metadata_genotype1_423.tsv` | metadata of the genotype 1 subset, including the genomes from this study, whose collection dates are given as year only |
 
+
+## primers
+
+| file | content |
+|---|---|
+| `primer_scheme` | Contains the sequence panel of the primers designed for Parvovirus B19 (B19V) whole-genome amplification and sequencing. |
+| `primer_mismatch_counts.csv` | Contains the detailed quantitative results of the in silico validation against the 503 global reference genomes. It details the exact number of genomes presenting different mismatch frequencies (0, 1, 2, 3, ≥4) for each primer, stratified by overall sequence mismatches and critical mismatches located at the 3' end (terminal 3 and 5 nucleotides). |
+| `evaluation_primers_summary.csv` | An aggregated statistical report consolidating the overall performance of each primer and its respective amplicon pairs. It features the final efficacy and coverage metrics, such as the percentage of perfectly matched genomes and 3' end conservation rates, validating the theoretical robustness of the primer scheme against known B19V genomic diversity. |
+| `NCBI_B19V_genomes.fasta` | Include all 503 B19V sequences with at least 70% genome coverage available in the NCBI GenBank database (https://www.ncbi.nlm.nih.gov/) as of September 2026. We aligned these sequences using MAFFT and used them to validate the designed primer scheme in silico. |
+| `B19V_primer_diversity_analysis.py` | Python script used to validate the designed primer scheme in silico. |
+
+
 ## statistics
 
 `stats_epi.py` reproduces the tests reported in the Statistical analysis section, from the counts
 in Table 1, and `stats_epi.txt` is its output.
+
+
 
 ## software
 
